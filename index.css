@@ -144,13 +144,21 @@ footer {
 .quote {
   height: 350px;
   background-color: #e5e7eb;
-  font-size: 36px;
-  font-style: italic;
+  padding-top: 100px;
 }
 
-.quote .right{
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 0 200px;
+  text-align: center;
+}
+
+.quote .right {
   font-size: 28px;
   font-weight: bold;
+  text-align: end;
 }
 
 .modal {
